@@ -74,7 +74,6 @@ ul {
 .circleCont {
   width: 51%;
   float: right;
-
 }
 
 .largeCircle {
@@ -83,7 +82,6 @@ ul {
   border-radius: 200px;
   margin: auto;
 }
-
 
 .menu li {
   width: 20%;
@@ -127,4 +125,79 @@ h3 {
 
 .section {
   margin-bottom: 60px;
+}
+
+@media screen and (max-width: 800px) {
+
+  .main {
+    width: 90%;
+  }
+
+  .circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    margin-top: 5px;
+  }
+
+  .logobox {
+    height: 20px;
+    width: 50px;
+  }
+
+.menu li {
+    margin: 2% 0 2% 1%;
+    padding-left: 0px;
+  }
+
+.menu ul {
+    width: 100%;
+  }
+
+.menu li:first-child {
+  margin-left: 17%;
+}
+
+.largeCircle {
+  width: 30vw;
+  height: 30vw;
+  border-radius: 100%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 4vw;
+}
+
+p {
+  font-size: 2vw;
+}
+
+.thumCont {
+  clear: both;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
+
+.thumbnail {
+  display: block;
+  width: 32.26%;
+  margin: 1% 0 1% 1.6%;
+  float: left;
+}
+
+.thumbnail:first-child {
+  margin-left: 0;
+}
+
+.contA {
+  width: 45%;
+  margin-left: 2.8%;
+}
+
+.contentB {
+  width: 45%;
+  }
+
 }
