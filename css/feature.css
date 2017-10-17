@@ -1,0 +1,100 @@
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
+.headerleft {
+  width: 30%;
+  height: 50px;
+  background-color: black;
+  float: left;
+  margin: 60px 0 60px 0;
+}
+
+.headerright {
+  width: 20%;
+  height: 50px;
+  background-color: black;
+  float: right;
+  margin: 60px 0 60px 0;
+}
+
+.widecontent {
+  clear: both;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  }
+
+.feature {
+  margin-top: 60px;
+  width: 33%;
+  overflow: auto;
+  float: left;
+}
+
+.box {
+  width: 10vw;
+  height: 10vw;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  margin: 0px 15px 0 0;
+}
+
+@media screen and (max-width: 600px) {
+ .feature {
+   width: 100%;
+ }
+ .headerright {
+   display: none;
+ }
+
+ .copy {
+   width: 60%;
+   float: left;
+ }
+
+ .box {
+   float: left;
+   margin-right: 20px;
+   width: 28vw;
+   height: 28vw;
+ }
+
+ .p {
+   display: block;
+   float: left;
+ }
+
+ h2 {
+   text-align: left;
+   margin-top: 0;
+   margin-bottom: 5px;
+ }
+
+ #two .box {
+   float: right;
+ }
+
+}
