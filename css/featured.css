@@ -30,7 +30,6 @@
 #nav {
   margin-bottom: 30px;
   overflow: auto;
-
 }
 
 #nav ul {
@@ -68,7 +67,6 @@
   width: 21%;
   float: left;
   margin: 2%
-
 }
 
 .photoblock {
@@ -80,4 +78,61 @@
   width: 80%;
   height: 15px;
   margin: 20px 0;
+}
+
+@media screen and (max-width: 700px) {
+
+  #logospot {
+    width: 25%;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    }
+
+  #navigation {
+    margin: 0px
+  }
+
+  #nav ul {
+    width: 150px;
+    margin-right: 80px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  #nav li {
+    height: 5px;
+    padding: 0 5px;
+    vertical-align: middle;
+  }
+
+  #block {
+    margin-bottom: 25px;
+  }
+
+  #contentblock1 {
+    height: 20px;
+    margin-bottom: 15px;
+  }
+
+  #contentblock2 {
+    height: 20px;
+  }
+
+  .gallery {
+    width: 46%;
+    float: left;
+    margin: 2%
+  }
+
+  .galleryline {
+    height: 10px;
+    margin: 10px 0;
+  }
+
+  p {
+    /*height: 60px;*/
+    font-size: 2vw;
+  }
 }
