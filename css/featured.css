@@ -136,3 +136,41 @@
     font-size: 2vw;
   }
 }
+
+@media screen and (max-width: 400px) {
+
+  #logospot {
+    clear:both;
+  }
+
+  #nav ul {
+    float: left;
+    -webkit-padding-start: 0px;
+  }
+
+  #nav li {
+  }
+
+  #block {
+    padding-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .gallery {
+    width: 100%;
+    float: left;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+  .galleryline {
+    width: 40%;
+    margin: 20px 0 15px 0;
+    height: 12px;
+  }
+
+  p {
+    /*height: 60px;*/
+    font-size: 3vw;
+  }
+}
