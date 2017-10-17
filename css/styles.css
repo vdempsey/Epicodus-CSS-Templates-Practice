@@ -1,0 +1,43 @@
+/* For testing only */
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+/* End for testing */
+
+.main {
+  width: 1022px;
+  margin: auto;
+  overflow: auto;
+}
+.one, .two, .three {
+  background-color: #303030;
+}
+
+.one {
+  width: 750px;
+  float: left;
+  height: 520px;
+  margin-right: 20px;
+  /*height: 100vh;*/
+}
+
+.two, .three {
+  width: 250px;
+  float: left;
+  height: 250px;
+}
+
+.two {
+  margin-bottom: 20px;
+}
