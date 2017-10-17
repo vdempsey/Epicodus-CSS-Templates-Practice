@@ -1,0 +1,83 @@
+/* For testing only */
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.main {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  overflow: auto;
+}
+
+#logospot {
+  width: 130px;
+  height: 30px;
+  float: left;
+  margin-top: 10px;
+}
+
+#nav {
+  margin-bottom: 30px;
+  overflow: auto;
+
+}
+
+#nav ul {
+  /*display: inline-block;*/
+  float: right;
+  width: 250px;
+  margin-right: 70px;
+}
+
+#nav li {
+  display: inline-block;
+  width: 30%;
+  padding: 0 10px;
+  height: 10px;
+}
+
+#block {
+  padding-left: 40px;
+  margin-bottom: 60px;
+  clear:both;
+}
+
+#contentblock1 {
+  width: 70%;
+  height: 40px;
+  margin-bottom: 20px;
+}
+
+#contentblock2 {
+  width: 80%;
+  height: 40px;
+}
+
+.gallery {
+  width: 21%;
+  float: left;
+  margin: 2%
+
+}
+
+.photoblock {
+  width: 100%;
+  height: 140px;
+}
+
+.galleryline {
+  width: 80%;
+  height: 15px;
+  margin: 20px 0;
+}
