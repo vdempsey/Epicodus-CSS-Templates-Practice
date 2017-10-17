@@ -1,0 +1,63 @@
+/* For testing only */
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.main {
+  width: 80%;
+  overflow: auto;
+  margin: auto;
+}
+
+.header {
+  max-width: 100%;
+  height: 40px;
+  margin: auto;
+}
+
+#boxes {
+  padding: 0 10px;
+  padding-bottom: 20px;
+  overflow: auto;
+}
+
+.box {
+  width: 30%;
+  height: 60px;
+  float: left;
+  margin: 2.4% 0 0 2.4%;
+}
+
+/* End for testing */
+
+@media screen and (max-width: 600px) {
+  .header {
+    height: 30px;
+  }
+
+  .box {
+    width: 45.9%;
+    margin: 3% 2%;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .box {
+    width: 96%;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-top: 2%;
+  }
+
+  }
